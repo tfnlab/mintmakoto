@@ -56,8 +56,6 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
           Makoto Digital
         </h1>
         <hr className="my-4" />
-        <a href="https://MakotoDigital.art" >MakotoDigital.art</a>
-        <hr className="my-4" />
         <img src="https://meta.makotodigital.art/image/og/box.png" width="100%"/>
         <hr className="my-4" />
         <button
