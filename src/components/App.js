@@ -131,7 +131,7 @@ class App extends Component {
           this.setState({ loading: true });
 
           const { abi } = require('../abis/Shibui.json');
-          
+
           var smart_contract_interface = new web3.eth.Contract(abi, '0xa07493367869fdAc5D5F2a44cbe28f055404CE62')
 
 
@@ -484,7 +484,7 @@ getPunkOwner = async (punkIndex) => {
                   )}
               />
               <Route path='/nftrade' component={() => {
-                   window.location.href = 'https://opensea.io/collection/meme-genesis-1';
+                   window.location.href = 'https://opensea.io/collection/shibui-2';
                    return null;
               }}/>
 
