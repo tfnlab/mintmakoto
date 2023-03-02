@@ -58,6 +58,8 @@ const ConnectToMetamask = ({ connectToMetamask }) => {
         <hr className="my-4" />
         <a href="https://MakotoDigital.art" >MakotoDigital.art</a>
         <hr className="my-4" />
+        <img src="https://meta.makotodigital.art/image/og/box.png" />
+        <hr className="my-4" />
         <button
           onClick={connectToMetamask}
           className="btn btn-primary d-flex align-items-center"
