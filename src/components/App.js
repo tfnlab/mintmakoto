@@ -131,6 +131,7 @@ class App extends Component {
           this.setState({ loading: true });
 
           const { abi } = require('../abis/Shibui.json');
+          
           var smart_contract_interface = new web3.eth.Contract(abi, '0xa07493367869fdAc5D5F2a44cbe28f055404CE62')
 
 
